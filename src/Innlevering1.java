@@ -1,4 +1,4 @@
-
+﻿
 import java.util.Scanner;
 
 public class Innlevering1 {
@@ -16,7 +16,7 @@ public class Innlevering1 {
 		
 
 		if (salary >= 934051) {
-			tax = -((salary-934051) * 0.1452) + trinn3 + trinn2 +trinn1;
+			tax = ((salary-934051) * 0.1452) + trinn3 + trinn2 +trinn1;
 			
     } else if (reminding >= 580651) {
 		tax = ((salary-580651)* (0.1152)) + trinn2 + trinn1  ;
